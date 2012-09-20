@@ -14,7 +14,8 @@ input_json.each do|node|
 	tempHash = Hash.new	#每ID的hash
 	puts '____'
 	puts tempHash['id'] = count
-	puts tempHash['name'] = node['number']
+	puts tempHash['name'] = node['name']
+	puts tempHash['number'] = node['number']
 	puts tempHash['address'] = node['address']
 	puts tempHash['latitude'] = node['latitude']
 	puts tempHash['longitude'] = node['longitude']
