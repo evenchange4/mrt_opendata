@@ -33,9 +33,9 @@ mrtjson.each do|mrtNode|
 		end
 
 	end
-	tempHash['near<1?'] = anArray1
-	tempHash['near<2?'] = anArray2
-	tempHash['near<3?'] = anArray3
+	tempHash['near<1'] = anArray1
+	tempHash['near<2'] = anArray2
+	tempHash['near<3'] = anArray3
 
 	anArray << tempHash
 end
