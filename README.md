@@ -1,5 +1,4 @@
 # [捷運站經緯度坐標 Open data](https://raw.github.com/evenchange4/mrt_opendata/master/mrt.json) 
-- 2013 夏，取得的站數為 `96` 站。
 
 ## 資料說明
 - 2013 夏，取得的站數為 `96` 站。
