@@ -1,11 +1,11 @@
 # Open data 捷運站坐標
 ============
-### 做法
+## 做法
 - 透過捷運站的[官方網站](http://web.trtc.com.tw/c/stationdetail2010.asp?ID=19)來取得每一個捷運站的地址，
 再使用 ruby gem `"geocoder"` 將地址來取得經緯度。
 	- example: "10576臺北市松山區敦化北路338號" -> "25.063718, 121.549643"
 
-### 捷運站坐標: `mrt.json`
+## 捷運站坐標: `mrt.json`
 
 ```
 [
@@ -28,6 +28,6 @@
   ...
 ```
 
-### reference
+## reference
 - [www.trtc.com.tw](http://www.trtc.com.tw/ct.asp?CtNode=24569&mp=122031&xItem=1015926)
 - ruby gem [geocoder](http://www.rubygeocoder.com/)
